@@ -16,7 +16,7 @@ function App() {
   //   // console.log(formData)
   // }
   const checkResult = async () => {
-    const res = await fetch("https://nodejs-api-ruby.vercel.app/", {
+    const res = await fetch("https://nodejs-api-ruby.vercel.app/retal", {
       method: "GET",
       headers: {
         'Content-Type': 'application/json',
